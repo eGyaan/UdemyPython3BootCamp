@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 11 17:14:57 2018
+
+@author: gkgm
+"""
+
+# write a function xyz(d) that loops through the numbers 0 through a, and returns 'Jackpot' if it finds the number 777. 
+# If it doesn't find it, return 'Try again'. Use while loop.
+
+def xyz(a):
+    counter = 1
+    while(counter <= a):
+        #print(counter)
+        if counter == 777:
+            return('Jackpot')
+        counter +=1
+    else:
+        return('Try again')
